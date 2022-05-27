@@ -22,11 +22,11 @@ Ambient ambient; //Ambientオブジェクトを定義]
 
 //Wi-Fiに接続するためにSSID, パスワードを入力
 
-const char* ssid = "Buffalo-G-58A8";
-const char* password = "gi3tsmyxetbec";
+const char* ssid = "";
+const char* password = "";
 
-unsigned int channelId = 36372; //AmbientのチャネルID
-const char* writeKey = "fd92819f6d924ee5";  //ライトキー
+unsigned int channelId = ; //AmbientのチャネルID
+const char* writeKey = "";  //ライトキー
 
 void i2sInit(){
   i2s_config_t i2s_config = {
